@@ -1065,9 +1065,24 @@ Team
     margin-bottom  : 0;
     color          : black;
     position: relative;
-    z-index: 1;
+    z-index: 1;    
+}
+
+@media(max-width: 768px) {
+    .single-page-title h2 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 550px) {
+    .single-page-title h2 {
+        font-size: 24px;
     }
 
+    .single-page-title {
+        padding-top: 100px; 
+    }
+}
 
 /*-------------------------
     Progress Bar
